@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right,rgb(24, 29, 31),#221a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+
+.spinner{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 7px solid;
+    border-color: red white white white ;
+    animation:  rotate  1.5s linear infinite;
+
+}
+
+@keyframes rotate {
+    100%{transform: rotate(360deg);}
+}
